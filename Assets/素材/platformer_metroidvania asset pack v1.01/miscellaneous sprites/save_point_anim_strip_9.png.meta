@@ -139,8 +139,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 108
-        height: 19
+        width: 12
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +159,10 @@ TextureImporter:
       name: save_point_anim_strip_9_1
       rect:
         serializedVersion: 2
-        x: 1
-        y: 11
-        width: 10
-        height: 9
+        x: 12
+        y: 0
+        width: 12
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: save_point_anim_strip_9_2
       rect:
         serializedVersion: 2
-        x: 13
-        y: 12
-        width: 10
-        height: 8
+        x: 24
+        y: 0
+        width: 12
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,10 +203,10 @@ TextureImporter:
       name: save_point_anim_strip_9_3
       rect:
         serializedVersion: 2
-        x: 25
-        y: 12
-        width: 10
-        height: 8
+        x: 36
+        y: 0
+        width: 12
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +225,10 @@ TextureImporter:
       name: save_point_anim_strip_9_4
       rect:
         serializedVersion: 2
-        x: 37
-        y: 12
-        width: 10
-        height: 8
+        x: 48
+        y: 0
+        width: 12
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: save_point_anim_strip_9_5
       rect:
         serializedVersion: 2
-        x: 49
-        y: 11
-        width: 10
-        height: 9
+        x: 60
+        y: 0
+        width: 12
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,10 +269,10 @@ TextureImporter:
       name: save_point_anim_strip_9_6
       rect:
         serializedVersion: 2
-        x: 61
-        y: 11
-        width: 10
-        height: 9
+        x: 72
+        y: 0
+        width: 12
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +291,10 @@ TextureImporter:
       name: save_point_anim_strip_9_7
       rect:
         serializedVersion: 2
-        x: 97
-        y: 11
-        width: 10
-        height: 9
+        x: 84
+        y: 0
+        width: 12
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,11 +309,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: save_point_anim_strip_9_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a94c542e4a735541ba325101569b672
+      internalID: 485996143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 10bfa1f535f6bdc4292f128ba9706d44
     internalID: 0
     vertices: []
     indices: 
@@ -331,6 +353,7 @@ TextureImporter:
       save_point_anim_strip_9_5: -3631773759279788581
       save_point_anim_strip_9_6: 7320021468835988862
       save_point_anim_strip_9_7: -1025206364303375801
+      save_point_anim_strip_9_8: 485996143
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
