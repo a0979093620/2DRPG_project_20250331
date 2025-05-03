@@ -6,7 +6,7 @@ namespace lotta
     /// </summary>
     public class PlayerState : State
     {
-        private Player player;
+        protected Player player;
         public PlayerState(Player _player , StateMachine _machine ,string _name)
         {
             player = _player;

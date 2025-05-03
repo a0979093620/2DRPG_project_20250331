@@ -17,7 +17,7 @@ namespace lotta
 
         public virtual void Update()
         {
-            Log.Text($"更新「{name}」狀態", "#ff3");
+            //Log.Text($"更新「{name}」狀態", "#ff3");
         }
 
         public virtual void Exit()

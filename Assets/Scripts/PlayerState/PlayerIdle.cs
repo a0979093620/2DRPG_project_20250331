@@ -4,7 +4,7 @@ namespace lotta
     /// <summary>
     /// 玩家待機
     /// </summary>
-    public class PlayerIdle : PlayerState
+    public class PlayerIdle : PlayerGround
     {
         public PlayerIdle(Player _player, StateMachine _machine, string _name) : base(_player, _machine, _name)
         {
@@ -30,9 +30,13 @@ namespace lotta
             // 右或 D :+1
             // 沒按 : 0
             float h = Input.GetAxis("Horizontal");
-            Log.Text($"玩家的水平軸 : {h}", "#f93");
+            //Log.Text($"玩家的水平軸 : {h}", "#f93");
 
-
+            // 如果絕對值 h > 0.1 就切換狀態
+            if(Mathf.Abs(h) > 0.1f)
+            {
+                stateMachine.SwitchState(player.PlayerWalk);
+            }
 
         }
     }
